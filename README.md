@@ -6,6 +6,7 @@ pcs_astral.pl
 ## Overview: 
 This script implements the "partitioned coalescence support" method by automating the process of removing one tree at a time from a set of gene trees and analyzing species trees using ASTRAL (https://github.com/smirarab/ASTRAL). The effect of removing each gene on the support for a reference species tree relative to one or more user-specified alternative topologies is calculated and reported in the form of PCS values.
 
+See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699) for more information.
 
 ## Requirements: 
 
