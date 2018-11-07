@@ -4,7 +4,7 @@ Scripts for automating Partitioned Coalescence Support (PCS) using ASTRAL
 pcs_astral.pl
 
 ## Overview: 
-This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 CLadistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [ASTRAL](https://github.com/smirarab/ASTRAL) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
+This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 Cladistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [ASTRAL](https://github.com/smirarab/ASTRAL) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
 
 See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699) for more information.
 
@@ -14,7 +14,7 @@ This automation is implemented with a Perl script that has been designed for a U
 
 Perl - The provided Perl script should be called by users (pcs_astral.pl). Perl is pre-installed in most Mac OSX and Linux distributions.
 
-ASTRAL - The Perl script calls [ASTRAL](https://github.com/smirarab/ASTRAL), which must be installed, and the user must provide the full path and file name for the ASTRAL jar file. The script has been tested with ASTRAL 4.7.12, 4.10.5, and 4.11.1  but would likely work with other versions of ASTRAL 4. It does not currently work with ASTRAL 5, but that will be updated shortly.
+ASTRAL - The Perl script calls [ASTRAL](https://github.com/smirarab/ASTRAL), which must be installed, and the user must provide the full path and file name for the ASTRAL jar file. The script has been tested with ASTRAL versions 4.7.12, 4.10.5, 4.11.1, and 5.6.3 but would likely work with other versions of ASTRAL.
 
 Java - ASTRAL is written in Java, so Java JDK should be installed and in your PATH.
 

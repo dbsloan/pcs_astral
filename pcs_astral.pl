@@ -266,8 +266,8 @@ sub call_astral{
 	my @astral_out = file_to_array(".$randnum\_ASTRAL_TEMP_OUT");
 	my $score;
 	foreach (@astral_out){
-		if ($_ =~ /Quartet\ score\ is\:\ (\d+)/){
-			$score = $1 and last;
+		if ($_ =~ /(Final q|Q)uartet\ score\ is\:\ (\d+)/){
+			$score = $2 and last;
 		}
 	}
 	$score or die ("\nERROR: Could not parse quartet score from the file .$randnum\_ASTRAL_TEMP_OUT, which was generated with the following system call:\n\n$bash_line > .$randnum\_ASTRAL_TEMP_OUT\n\n");
