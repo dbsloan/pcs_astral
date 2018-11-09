@@ -1,7 +1,7 @@
 # pcs_astral
 Scripts for automating Partitioned Coalescence Support (PCS) using ASTRAL
 
-pcs_astral.pl
+`pcs_astral.pl`
 
 ## Overview: 
 This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 Cladistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [ASTRAL](https://github.com/smirarab/ASTRAL) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
@@ -24,7 +24,7 @@ Java - ASTRAL is written in Java, so Java JDK should be installed and in your PA
 The script can be called from the command line to analyze a set of gene trees with ASTRAL. The user must specify the gene trees, the reference species tree, and at least one alternative species-tree topology. There are required parameters that are specified at the command line as described below. Sample data and expected output files are provided in the sample_data directory.
 
 
-Usage: perl pcs_astral.pl [arguments] > output_file
+Usage: `perl pcs_astral.pl [arguments] > output_file`
 
    REQUIRED ARGUMENTS
    
