@@ -4,9 +4,14 @@ Scripts for automating Partitioned Coalescence Support (PCS) using ASTRAL
 `pcs_astral.pl`
 
 ## Overview: 
-This script implements the "partitioned coalescence support" method of [Gatesy et al. (2017 Cladistics)](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) by automating the process of running [ASTRAL](https://github.com/smirarab/ASTRAL) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
+This script implements the "partitioned coalescence support" method by automating the process of running [ASTRAL](https://github.com/smirarab/ASTRAL) and parsing output. Partitioned coalescence support for each gene is calculated and reported.
 
-See [Gatesy et al. bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699) for more information.
+**Citations:**
+
+- [Gatesy et al. 2019. Partitioned coalescence support reveals biases in species-tree methods and detects gene trees that determine phylogenomic conflicts. Molecular Phylogenetics and Evolution. 139: 106539.](https://www.sciencedirect.com/science/article/pii/S1055790318307036) Also available as a [bioRxiv pre-print](https://www.biorxiv.org/content/early/2018/11/04/461699).
+
+- [Gatesy et al. 2017. Resolution of a concatenation/coalescence kerfuffle: partitionedcoalescence support and a robust family-level tree for Mammalia. Cladistics. 33: 295-332.](https://onlinelibrary.wiley.com/doi/full/10.1111/cla.12170) 
+
 
 ## Requirements: 
 
